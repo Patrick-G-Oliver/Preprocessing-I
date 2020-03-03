@@ -130,72 +130,59 @@ table {
 * {
   box-sizing: border-box;
 }
-
-html, body {
+html,
+body {
   height: 100%;
   font-size: 62.5%;
 }
-
-/* header, img, div, h1, p, button, nav, a {
-  border: 2px solid blue;
-} */
-
 header.headline {
   display: flex;
   justify-content: space-between;
-  /* background-color: rgb(247, 237, 214); */
-  background-color: rgb(209, 228, 242);
+  background-color: #d1e4f2;
   margin: 25px;
   border-radius: 10px;
+  border: 1px solid;
 }
-
 img.cv-photo {
   width: 30%;
   height: 90%;
   margin: 50px 25px 0 25px;
   border-radius: 10px;
 }
-
 div.header-text {
   width: 58%;
   display: flex;
   flex-direction: column;
   align-items: leftd;
 }
-
 h1 {
   font-size: 5rem;
   margin: 50px 0 25px 0;
 }
-
 .header-text p {
   font-size: 2rem;
   text-align: left;
 }
-
 .header-text button {
-  width: 15%;
-  height: 15%;
-  margin: 25px;
+  width: 100px;
+  height: 50px;
+  margin: 25px 0 25px 35%;
   font-size: 1.5rem;
   padding: 5px;
-  border: 1px solid;
-  border-radius: 10px;
   background-color: rgba(230, 246, 247, 0.988);
+  border-radius: 10px;
+  border: 1px solid;
 }
-
 .header-text h2 {
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
 }
-
 .header-text ul {
   border-bottom: 1px solid;
   margin-bottom: 25px;
   text-align: center;
   border-radius: 10px;
 }
-
 .header-text li {
   font-size: 2rem;
   background-color: rgba(230, 246, 247, 0.988);
@@ -205,7 +192,6 @@ h1 {
   padding: 20px;
   border-radius: 10px;
 }
-
 nav.navigation {
   width: 20%;
   display: flex;
@@ -215,7 +201,6 @@ nav.navigation {
   border-radius: 10px;
   margin: 50px 10px 10px 0;
 }
-
 .navigation a {
   text-decoration: none;
   color: black;
@@ -228,18 +213,45 @@ nav.navigation {
   background-color: rgba(230, 246, 247, 0.988);
   border-radius: 10px;
 }
-
+section.work-history-container {
+  background-color: #d1e4f2;
+  margin: 25px;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid;
+}
+.work-history-container h2 {
+  font-size: 3rem;
+  margin: 0 0 1% 10%;
+}
+.work-history-container ol {
+  width: 80%;
+  font-size: 2rem;
+  border-top: 1px solid;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.work-history-container li {
+  text-align: center;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  background-color: rgba(230, 246, 247, 0.988);
+  padding: 20px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
 @media (min-width: 1025px) {
   body {
     background-color: green;
   }
 }
-
 @media (max-width: 500px) {
   body {
     background-color: red;
   }
 }
-
-
-
